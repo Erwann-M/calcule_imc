@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+
+#entete {
+    width: 800px;
+    margin-left: 400px;
+}
+
+#formulaire {
+    margin: 100px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 60px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  15px 15px 30px #c3c3c3,
+                -15px -15px 30px #fdfdfd;
+    width: 400px;
+    margin-left: 550px;
+}
+
+#formulaire p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#paragraphe_explication {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+}
+
+#poid, #taille {
+    height: 20px;
+    margin-top: 20px;
+    width: 200px;
+    color: rgb(77, 77, 77);
+    padding-left: 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  15px 15px 30px #c3c3c3,
+                -15px -15px 30px #fdfdfd;
+}
+
+#poid:focus, #taille:focus {
+    outline: none;
+    border-radius: 60px;
+    background: #e0e0e0;
+    box-shadow: inset 15px 15px 30px #c3c3c3,
+            inset -15px -15px 30px #fdfdfd;
+}
+
+a {
+    text-decoration: none;
+}
+
+#valid_btn, a {
+    margin-top: 20px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    box-shadow:  15px 15px 30px #c3c3c3,
+                -15px -15px 30px #fdfdfd;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#valid_btn:hover, a:hover {
+    background-color: rgb(210, 241, 147);
+    box-shadow:  -15px -15px 30px #c3c3c3,
+                15px 15px 30px #fdfdfd;
+    transition: 1s;
+    color: rgb(160, 160, 160);
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-shadow: 5px 4px 5px rgba(0,0,0,0.6);
+}
